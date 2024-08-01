@@ -1,15 +1,19 @@
 {
-  "name": "client",
-  "private": true,
-  "version": "0.0.0",
+  "name": "openai_code_2code",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "server": "nodeman server"
   },
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.3.4"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "openai": "^4.53.2"
   }
 }
